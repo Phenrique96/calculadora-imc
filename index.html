@@ -1,1 +1,60 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="icon" href="">
+</head>
+<body>
+    <div class="titulo">
+        <h4 class="texto">Calculadora IMC</h4>
+    </div>
+    </div>
+        <img src="calculadora-icon.png" alt="" class="calculadora">
+    </div>
+
+    <form id="tipsForm">
+        <div class="campo">
+            <p>Digite seu nome:</p>
+            <input type="text">
+            <input type="text" id="name">
+
+            <br><br><br><br>
+
+            <p>Digite sua idade:</p>
+            <input type="number">
+            <input type="number" id="age">
+
+            <br><br><br>
+
+            
+            <label>Realiza atividade física?</label>
+            <select>
+                <option disabled selected value="0">Selecione...</option>
+                <option value="SIM">Sim</option>
+                <option value="SIM">Não</option>
+            </select>
+            
+            <br><br><br><br>
+
+            <p>Digite seu peso (Kg):</p>
+            <input type="number" name="peso" id="quilo">
+
+            <br><br><br><br>
+
+            <p>Digite sua altura:</p>
+            <input type="number" name="altura" id="metro">
+
+            <br>
+        </div>
+    </form> 
+
+    <button type="submit" id="submit" class="calcular">CALCULAR</button>
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
