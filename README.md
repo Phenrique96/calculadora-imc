@@ -1,2 +1,2 @@
-# calculadora-imc
+# calculadora-imc 🖩
 Desenvolvimento de uma Calculadora IMC
