@@ -30,10 +30,12 @@
   # ✅ Verificar
   
   Clone o projeto e acesse a pasta.
-  
+  ```bash
   $ git clone https://github.com/Phenrique96/calculadora-imc.git
-  
+  ```
+  ```bash
   $ git cd calculadora-imc
+  ```
   
   # 💻 Desenvolvimento
   
