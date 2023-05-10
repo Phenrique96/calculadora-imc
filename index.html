@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assets/calculadora.png.png">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <div class="container">
+        <p class="paragrafo-cont">Calculadora IMC</p>
+        <div class="conteudo-container">
+            <img  class="icon-campo" src="./assets/peso.png.png" alt="peso" title="Peso">
+            <input class="campo" type="number" id="kg" class="quilo" placeholder="ex.: 65.5" required>
+        </div>
+        <div class="conteudo-container">
+            <img class="icon-campo" src="./assets/altura.png.png" alt="altura" title="Altura">
+            <input class="campo" type="number" id="alt" class="altura" placeholder="ex.: 1.75" required>          
+        </div>
+        <button class="calcular" id="btn-calcular">Calcular</button>
+    </div>
+    <div id="div-result" class="resultado-container">
+        <span id="span-imc"></span>
+        <span id="span-grau"></span>
+    </div>
+    <div class="atualizacao-campo" id="atualizacao">
+        <img class="img-att" id="img-atualiza" src="./assets/redefinir.png" alt="atualizar">
+        <label class="label-att" id="label-atualiza">Atualizar</label>
+    </div>
+   
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

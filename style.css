@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@800&family=Roboto:wght@300;400&display=swap');
+
+
+:root {
+    --cor-primaria: #5ed0e6;
+    --cor-secundaria: #d9d9d9;
+    --cor-terciaria: #ffff;  
+    
+}
+
+body{
+   background: linear-gradient(90deg, rgba(93,224,230,1) 21%, rgba(0,74,173,1) 85%);  
+   box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    margin-top: 5%;
+    width: 400px;
+    height: 290px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--cor-terciaria);
+    border-radius: 15px;
+    box-shadow: 7px 7px var(--cor-secundaria);
+}
+
+.conteudo-container{
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+  
+
+}
+
+.paragrafo-cont {
+    font-size: 35px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: var(--cor-primaria);
+}
+
+
+
+.icon-campo {
+    width: 40px;
+    position: absolute;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    padding: 4px;
+    border-radius: 9px; 
+}
+
+.campo{
+    text-align: center;
+    width: 200px;
+    height: 14px;
+    padding: 15px;
+    border: solid 2px var(--cor-secundaria);
+    border-radius: 40px;
+    border-left: none;   
+    font-size: 24px;   
+    font-family:'Roboto', sans-serif; 
+    color: #5ed0e6;
+    outline: none;
+}
+
+.campo:focus{
+    border: solid 2px #9BA4B5;
+    height: 14px;
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: var(--cor-secundaria);
+    font-family: 'Roboto', sans-serif; 
+  }
+
+
+
+.calcular{
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif; 
+    margin-bottom: 10x;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);  
+    border: none;
+    cursor:pointer;
+}
+
+.calcular:hover{
+    width: 130px;
+    height: 460px;
+    font-size: 20.5px;
+    background-color: var(--cor-primaria); 
+}
+
+.resultado-container{
+    margin: auto;
+    margin-top: 50px;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    width: 230px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.atualizacao-campo {
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-att {
+    width: 60px;
+    
+}
+
+.label-att {
+  font-size: 24px;
+  font-family:'Roboto', sans-serif;
+  color: var(--cor-terciaria);
+    
+}
