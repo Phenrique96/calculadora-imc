@@ -17,3 +17,16 @@
 ![RESULTADO](https://github.com/Phenrique96/calculadora-imc/assets/99408681/62d4faf8-9421-472c-a869-708faca04991)
 
 4- Para calcular  seu IMC novamente, basta clicar no icone "🔄 Atualizar" para apagar os registros.
+  
+  
+# 🧪 Tecnologias
+ 
+  Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+  
+  - JavaScript
+  - HTML
+  - CSS
+
+  # ✅ Verificar
+  
+  Clone o projeto e acesse a pasta.
