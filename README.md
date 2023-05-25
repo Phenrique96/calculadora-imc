@@ -16,7 +16,7 @@
  
 ![RESULTADO](https://github.com/Phenrique96/calculadora-imc/assets/99408681/62d4faf8-9421-472c-a869-708faca04991)
 
-4- Para calcular  seu IMC novamente, basta clicar no icone "🔄 Atualizar" para apagar os registros.
+4- Para calcular  seu IMC novamente, basta clicar no icone "🔄" para apagar os registros.
   
   
 # 🧪 Tecnologias
