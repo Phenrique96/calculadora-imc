@@ -9,7 +9,7 @@
 ![RESULTADO](https://github.com/Phenrique96/calculadora-imc/assets/99408681/62d4faf8-9421-472c-a869-708faca04991)
   
   
-# 🧪 Tecnologias
+# 🚀 Tecnologias
  
   Este projeto foi desenvolvido utilizando as seguintes tecnologias:
   
@@ -19,7 +19,7 @@
 
   # 🌍 Acessar o projeto
 
-  https://phenrique96.github.io/calculadora-imc/
+  - https://phenrique96.github.io/calculadora-imc/
   
  
   # 💻 Desenvolvimento
